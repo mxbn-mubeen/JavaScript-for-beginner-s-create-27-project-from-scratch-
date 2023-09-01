@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"> <!-- Character encoding declaration -->
+  <title>Addition game</title> <!-- Title of the HTML document -->
+  <meta name="description" content="Addition game with JavaScript"> <!-- Meta description for SEO -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive viewport settings -->
+  <link rel="stylesheet" type="text/css" href="mystyle.css"> <!-- Link to an external stylesheet -->
+</head>
+<body>
+  <div id="wrapper"> <!-- Outer container div -->
+    <table width="400" height="300" align="center"> <!-- Table for layout -->
+      <tr>
+        <td>
+          <div id="number1" style="font-size:45px; font-weight:bold; border:5px solid green;padding: 50px;">1</div> <!-- Display of first number -->
+        </td>
+        <td>
+          <div style="font-size:45px; font-weight:bold;">+</div> <!-- Plus sign -->
+        </td>
+        <td>
+          <div id="number2" style="font-size:45px; font-weight:bold; border:5px solid blue;padding:50px;">2</div> <!-- Display of second number -->
+        </td>
+        <td>
+          <div style="font-size:45px; font-weight:bold;">=</div> <!-- Equal sign -->
+        </td>
+        <td>
+          <input type="text" style="padding:10px;border: 2px solid #14d2d5;"> <!-- Input field for user's answer -->
+        </td>
+        <td>
+          <input id="btn" type="button" value="check"> <!-- Button to check the answer -->
+        </td>
+      </tr>
+    </table>
+  </div>
+  <script src="myscript.js"></script> <!-- Link to an external JavaScript file -->
+</body>
+</html>

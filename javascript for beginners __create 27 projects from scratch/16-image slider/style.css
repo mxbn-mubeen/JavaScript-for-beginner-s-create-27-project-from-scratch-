@@ -1,0 +1,35 @@
+/* Add your CSS styles here */
+
+/* Styling for the container of the image slider */
+.wrapper {
+    max-width: 900px;
+    position: relative;
+    margin-left: 300px;
+}
+
+/* Styling for the individual slides (images) in the slider */
+.mySlides {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* Styling for the navigation buttons */
+.btn1,
+.btn2 {
+    position: absolute;
+    top: 45%;
+    padding: 10px;
+    background-color: lime;
+    border-radius: 30px;
+}
+
+/* Styling for the left navigation button */
+.btn1 {
+    left: 0;
+}
+
+/* Styling for the right navigation button */
+.btn2 {
+    right: 0;
+}

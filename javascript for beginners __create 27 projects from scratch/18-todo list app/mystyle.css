@@ -1,0 +1,60 @@
+/* This is a CSS file that defines the styles for the todo list application */
+
+body {
+    text-align: center; /* Center-aligns text within the body */
+    background-color: #6495ed; /* Sets the background color to a shade of blue */
+    font-family: helvetica, Arial; /* Defines the font family for text */
+    color: white; /* Sets the text color to white */
+}
+
+#add {
+    background-color: red; /* Sets the background color of the "Add Task" button to red */
+    border: 0; /* Removes the border from the button */
+    color: white; /* Sets the text color of the button to white */
+    padding: 10px 10px; /* Adds padding around the button content */
+    padding-right: 40px; /* Adds additional padding on the right side of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    margin-top: 35px; /* Adds margin space on the top of the button */
+}
+
+.remove {
+    margin-top: 13px; /* Adds margin space on the top of the "Delete" button */
+    background-color: #f2f205; /* Sets the background color of the "Delete" button to a light yellow */
+    float: right; /* Floats the button to the right within its container */
+    clear: both; /* Clears any floated elements to ensure proper layout */
+    padding-right: 20px; /* Adds padding on the right side of the button */
+    border-radius: 5px; /* Adds rounded corners to the button */
+    width: 60px; /* Sets the width of the button */
+    height: 20px; /* Sets the height of the button */
+    border-style: none; /* Removes the border style */
+}
+
+#wrapper {
+    width: 450px; /* Sets the width of the wrapper element */
+    background-color: #000365; /* Sets the background color of the wrapper to a dark blue */
+    margin-top: 120px; /* Adds margin space on the top of the wrapper */
+    margin-left: 295px; /* Adds margin space on the left of the wrapper */
+    padding-bottom: 30px; /* Adds padding space at the bottom of the wrapper */
+    padding-left: 50px; /* Adds padding space on the left side of the wrapper */
+    padding-top: 30px; /* Adds padding space on the top of the wrapper */
+    padding-right: 65px; /* Adds padding space on the right side of the wrapper */
+    border-radius: 25px; /* Adds rounded corners to the wrapper */
+}
+
+ul {
+    list-style: none; /* Removes the default bullet points from list items */
+    text-align: left; /* Aligns text within list items to the left */
+    line-height: 35px; /* Sets the line height for list items */
+}
+
+#task {
+    width: 320px; /* Sets the width of the input field for tasks */
+    height: 30px; /* Sets the height of the input field for tasks */
+    margin-left: 17px; /* Adds margin space on the left of the input field */
+    margin-top: 30px; /* Adds margin space on the top of the input field */
+}
+
+h1 {
+    margin-top: 30px; /* Adds margin space on the top of the main heading */
+    /* You can add more styles here for the main heading if needed */
+}

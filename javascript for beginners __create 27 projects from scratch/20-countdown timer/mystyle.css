@@ -1,0 +1,47 @@
+/* Apply styles to the entire body of the page */
+body {
+    text-align: center;
+    background: #FFF;
+    font-family: sans-serif, arial;
+    font-weight: bold;
+}
+
+/* Apply styles to the main heading (h1) */
+h1 {
+    color: #396;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 135px 0px 20px;
+}
+
+/* Apply styles to the countdown timer container */
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 55px;
+}
+
+/* Apply styles to the individual timer sections */
+#clockdiv > div {
+    padding: 50px;
+    border-radius: 7px;
+    background: #1F5A56;
+    display: inline-block;
+}
+
+/* Apply styles to the numbers within timer sections */
+#clockdiv div > span {
+    padding: 65px;
+    border-radius: 3px;
+    background: #000;
+    display: inline-block;
+}
+
+/* Apply styles to small text below timer sections */
+.smalltext {
+    padding-top: 5px;
+    font-size: 25px;
+}

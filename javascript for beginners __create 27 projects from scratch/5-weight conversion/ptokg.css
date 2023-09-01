@@ -1,0 +1,13 @@
+#container
+{
+
+    width:500px;  
+    height:250px;
+    background-color:rgb(38, 44, 156);
+    color:white;
+    margin-top: 60px;
+    margin-left: 300px;
+    padding-left:30px;
+    padding-top: 20px;
+    
+}

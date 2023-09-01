@@ -1,0 +1,41 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 50px;
+    background: #fff;
+  }
+  
+  #container {
+    width: 650px;
+    height: 350px;
+    background-color:gold;
+    margin: auto;
+    border-radius: 30px;
+  }
+  
+  h1 {
+    font-size: 47px;
+    font-weight: 600px;
+    color: #010101;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    background: antiquewhite;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  #weekday {
+    font-size: 80px;
+    color: #dd5800;
+    font-weight: 800;
+    margin-left: 180px;
+  }
+  
+  #phrase {
+    font-size: 40px;
+    color: #bc197e;
+    font-weight: 800;
+    margin-left: 170px;
+  }
+  

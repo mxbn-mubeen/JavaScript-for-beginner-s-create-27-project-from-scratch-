@@ -1,0 +1,22 @@
+/* CSS Styles for the addition game */
+
+body {
+    background-color: #4d91e2; /* Set the background color of the entire page */
+  }
+  
+  #wrapper {
+    width: 750px; /* Width of the container */
+    height: 350px; /* Height of the container */
+    background-color: yellow; /* Background color of the container */
+    margin-top: 120px; /* Top margin to center the container vertically */
+    margin-left: 220px; /* Left margin to center the container horizontally */
+  }
+  
+  #btn {
+    background-color: red; /* Background color of the button */
+    color: #fff; /* Text color of the button */
+    font-weight: bold; /* Bold text */
+    width: 100px; /* Width of the button */
+    padding: 12px; /* Padding inside the button */
+    border-style: none; /* No border around the button */
+  }

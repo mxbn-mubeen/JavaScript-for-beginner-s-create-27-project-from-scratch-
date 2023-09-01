@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>pounds to kilograms Weight Converter</title>
+    <link rel="stylesheet" type="text/css" href="ptokg.css">
+
+ </head>
+ <body>
+
+    <div id="container">
+
+        <h1>Weight Converter (pounds to kg)</h1> 
+        <p>Enter weight value in pounds:</p>
+
+        <p>
+            <label>Kilograms</label>
+            <input id="inputpounds" type="number" placeholder="pounds" 
+            oninput=" weightConverter (this.value)" onchange="weight Converter (this.value)">
+        </p>
+
+        <p>Your weight in kilograms is: <span id="outputkilograms"></span></p>
+
+    </div>
+
+    <script src="ptokg.js"></script>
+  </body>
+
+</html>
